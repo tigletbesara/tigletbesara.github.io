@@ -1,5 +1,5 @@
 
-:root{--bg:#ffffff;--muted:#6b7280;--text:#0f172a;--accent:#1155cc;--card:#fbfdff;--border:#e6e9ee;--msu:#5c0009;--maxw:1100px}
+:root{--bg:#ffffff;--muted:#6b7280;--text:#0f172a;--accent:#1155cc;--card:#fbfdff;--border:#e6e9ee;--maxw:1100px}
 
 *{box-sizing:border-box}html,
 body{
@@ -21,8 +21,8 @@ a{
 }
 .header{
     border-bottom:1px solid var(--border);
-    /*background:var(--bg);*/
-    background:rgba(var(--msu), 0.25);
+    background:var(--bg);
+    /*background:rgba(var(--msu), 0.25);*/
     /*background:linear-gradient(90deg, #5c0009 0%, #ffffff 95%) repeat;*/
     position:sticky;
     top:0;
