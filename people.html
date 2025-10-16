@@ -18,6 +18,15 @@
 <main class="container" id="content">
     <h2>People</h2>
     <div class='people-grid'>
+    {% for person in site.data.people %}
+        <div class="person-card">
+            <img src="{{ person.photo }}" alt="{{ person.name }}">
+            <h3>{{ person.name }}</h3>
+            <p>{{ person.role }}</p>
+            <p>{{ person.email }}</p>
+            <p>{{ person.bio }}</p>
+        </div>
+    {% endfor %}
 
     </div>
 </main>
