@@ -22,7 +22,8 @@ a{
 .header{
     border-bottom:1px solid var(--border);
     /*background:var(--bg);*/
-    background:linear-gradient(90deg, #5c0009 0%, #ffffff 95%) repeat;
+    background:rgba(var(--bg), 0.25);
+    /*background:linear-gradient(90deg, #5c0009 0%, #ffffff 95%) repeat;*/
     position:sticky;
     top:0;
     z-index:50;
