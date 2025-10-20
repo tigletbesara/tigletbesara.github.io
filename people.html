@@ -16,18 +16,59 @@
 {% include header.html %}
 
 <main class="container" id="content">
-    <h2>People</h2>
+    <h2>Team</h2>
     <div class='people-grid'>
-    {% for person in site.data.people %}
-        <div class="person-card">
-            <img src="{{ person.photo }}" alt="{{ person.name }}">
-            <h3>{{ person.name }}</h3>
-            <p>{{ person.role }}</p>
-            <p>{{ person.email }}</p>
-            <p>{{ person.bio }}</p>
+        <div class='person'>
+            <div class='people-grid-2'>
+                <img src='images/tb.jpg' alt='Tiglet Besara'/>
+                <div class='card'>
+                    <h2>Principal Investigator</h2>
+                    <h3>Tiglet Besara</h3>
+                    <p>
+                        Associate Professor
+                        <br>Department of Physics, Astronomy, and Materials Science
+                        <br>Missouri State University
+                    </p>
+                    <div class='social-links'>
+                        <a href='https://orcid.org/0000-0002-2143-2254' title='ORCiD' target='_blank'>
+                            <img src='images/orcid.png' alt='ORCiD' style='height:50px'></a>
+                        <a href='https://scholar.google.com/citations?hl=en&user=q1BBG_QAAAAJ&view_op=list_works&sortby=pubdate' title='Google Scholar' target='_blank'>
+                            <img src='images/gs.png' alt='Google Scholar' style='height:50px'></a>
+                        <a href='https://www.scopus.com/authid/detail.uri?authorId=36459660700' title='Scopus' target='_blank'>
+                            <img src='images/scopus.png' alt='Scopus' style='height:50px'></a>
+                        <a href='https://www.webofscience.com/wos/author/record/M-7969-2014' title='Web of Science' target='_blank'>
+                            <img src='images/wos.png' alt='Web of Science' style='height:50px'></a>
+                        <a href='https://www.researchgate.net/profile/Tiglet-Besara' title='ResearchGate' target='_blank'>
+                            <img src='images/rg.png' alt='ResearchGate' style='height:50px'></a>
+                        <a href='https://www.linkedin.com/in/tigletbesara' title='LinkedIn' target='_blank'>
+                            <img src='images/linkedin.png' alt='LinkedIn' style='height:50px'></a>
+                        <a href='https://x.com/TigletBesara' title='Twitter' target='_blank'>
+                            <img src='images/x.png' alt='Twitter' style='height:50px'></a>
+                        <a href='https://profiles.impactstory.org/u/0000-0002-2143-2254' title='ImpactStory' target='_blank'>
+                            <img src='images/impactstory.png' alt='ImpactStory' style='height:50px'></a>
+                    </div>
+                </div>
+            </div>
         </div>
-    {% endfor %}
-
+        <div class='person'>
+            <div class='card'>
+                <h3>Graduate Students</h3>
+                <p>Your name could be here!</p>
+            </div>
+        </div>
+        <div class='person'>
+            <div class='card'>
+                <h3>Undergraduate Students</h3>
+                <p>Your name could be here!</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2>Alumni</h2>
+    <div class='people-grid'>
+        <div class='person'>
+            Text
+        </div>
     </div>
 </main>
 
